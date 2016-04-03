@@ -15,7 +15,7 @@ class WardrobeViewController: UIViewController, UITableViewDataSource, UITableVi
             tableView.delegate = self
             tableView.dataSource = self
             tableView.separatorStyle = .None
-            tableView.backgroundColor = UIColor.blackColor()
+            tableView.backgroundColor = UIColor.whiteColor()
         }
     }
     
@@ -63,7 +63,7 @@ class WardrobeViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 20
+        return 0
     }
     
     // MARK: - Table view delegate
@@ -73,7 +73,7 @@ class WardrobeViewController: UIViewController, UITableViewDataSource, UITableVi
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 20))
-        view.backgroundColor = UIColor.blackColor()
+        view.backgroundColor = UIColor.whiteColor()
         return view
     }
 }

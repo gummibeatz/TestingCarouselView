@@ -32,7 +32,8 @@ class CarouselTableViewCell: UITableViewCell, iCarouselDataSource, iCarouselDele
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        self.backgroundColor = UIColor(red: 230, green: 230, blue: 230, alpha: 0.2)
+        self.backgroundColor = UIColor.whiteColor()
+        
         for i in 0...9 {
             items.append(i)
         }
@@ -83,7 +84,8 @@ class CarouselTableViewCell: UITableViewCell, iCarouselDataSource, iCarouselDele
         itemView.contentMode = .ScaleAspectFit
         itemView.image = UIImage(named: "shirt")
         itemView.frame = CGRect(x:0, y:0, width:100, height:100)
-        itemView.layer.borderColor = UIColor.blueColor().CGColor
+//        itemView.layer.borderColor = UIColor(red: 166.0/255, green: 206.0/255, blue: 253.0/255, alpha: 1.0).CGColor
+        itemView.layer.borderColor = UIColor.blackColor().CGColor
         return itemView
     }
     

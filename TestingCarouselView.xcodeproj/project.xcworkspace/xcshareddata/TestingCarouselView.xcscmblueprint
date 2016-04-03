@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F1F5E82AD34BF0EF7CFDFD99568F0906F7BC4F4A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "14651705FB81BD97AEE1DA5B1DECF6CAD54A5F22" : 0,
+    "F1F5E82AD34BF0EF7CFDFD99568F0906F7BC4F4A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D97E2998-C275-4049-82D7-88A937FBFFCC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "14651705FB81BD97AEE1DA5B1DECF6CAD54A5F22" : "",
+    "F1F5E82AD34BF0EF7CFDFD99568F0906F7BC4F4A" : "TestingCarouselView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestingCarouselView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestingCarouselView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gummibeatz\/CurateiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "14651705FB81BD97AEE1DA5B1DECF6CAD54A5F22"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gummibeatz\/TestingCarouselView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1F5E82AD34BF0EF7CFDFD99568F0906F7BC4F4A"
+    }
+  ]
+}
